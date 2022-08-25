@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reinforced-concrete-products/static/css/main.524cabdd.css",
+    "main.js": "/reinforced-concrete-products/static/js/main.ed659c6a.js",
+    "index.html": "/reinforced-concrete-products/index.html",
+    "main.524cabdd.css.map": "/reinforced-concrete-products/static/css/main.524cabdd.css.map",
+    "main.ed659c6a.js.map": "/reinforced-concrete-products/static/js/main.ed659c6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.524cabdd.css",
+    "static/js/main.ed659c6a.js"
+  ]
+}
