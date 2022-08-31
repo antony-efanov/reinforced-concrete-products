@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/reinforced-concrete-products/static/css/main.524cabdd.css",
-    "main.js": "/reinforced-concrete-products/static/js/main.ed659c6a.js",
+    "main.css": "/reinforced-concrete-products/static/css/main.6f150a03.css",
+    "main.js": "/reinforced-concrete-products/static/js/main.df831a2e.js",
+    "static/media/slide_3.png": "/reinforced-concrete-products/static/media/slide_3.463174bb6b8f5426084e.png",
+    "static/media/slide_2.png": "/reinforced-concrete-products/static/media/slide_2.5f0a1baf3e20ed3feff5.png",
+    "static/media/slide_1.png": "/reinforced-concrete-products/static/media/slide_1.c7ff0575ba23b878b10c.png",
+    "static/media/fbs.png": "/reinforced-concrete-products/static/media/fbs.9184fc46601ba6a5f892.png",
+    "static/media/kiltse.png": "/reinforced-concrete-products/static/media/kiltse.4ab76fc706ad5e135578.png",
+    "static/media/shodi.png": "/reinforced-concrete-products/static/media/shodi.5e89e716b8a9519d9763.png",
+    "static/media/plyta.png": "/reinforced-concrete-products/static/media/plyta.2d9415bee2256944b8cb.png",
+    "static/media/progon.png": "/reinforced-concrete-products/static/media/progon.d9862dae841c56832535.png",
+    "static/media/shoda.png": "/reinforced-concrete-products/static/media/shoda.94983a36816ac7f688f1.png",
+    "static/media/pali.png": "/reinforced-concrete-products/static/media/pali.ba8ac4730c1d2e6617d8.png",
     "index.html": "/reinforced-concrete-products/index.html",
-    "main.524cabdd.css.map": "/reinforced-concrete-products/static/css/main.524cabdd.css.map",
-    "main.ed659c6a.js.map": "/reinforced-concrete-products/static/js/main.ed659c6a.js.map"
+    "main.6f150a03.css.map": "/reinforced-concrete-products/static/css/main.6f150a03.css.map",
+    "main.df831a2e.js.map": "/reinforced-concrete-products/static/js/main.df831a2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.524cabdd.css",
-    "static/js/main.ed659c6a.js"
+    "static/css/main.6f150a03.css",
+    "static/js/main.df831a2e.js"
   ]
 }
