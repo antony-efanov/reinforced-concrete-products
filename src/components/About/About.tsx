@@ -2,9 +2,9 @@ import { FC } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
-import Slide_1 from "../../assets/images/slide_1.png";
-import Slide_2 from "../../assets/images/slide_2.png";
-import Slide_3 from "../../assets/images/slide_3.png";
+import Slide_1 from "../../assets/images/aboutSlides/slide_1.png";
+import Slide_2 from "../../assets/images/aboutSlides/slide_2.png";
+import Slide_3 from "../../assets/images/aboutSlides/slide_3.png";
 
 const About: FC = () => {
   return (
