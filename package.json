@@ -4,6 +4,7 @@
   "homepage": "https://antony-efanov.github.io/reinforced-concrete-products",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -11,9 +12,13 @@
     "@types/node": "^16.11.56",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
+    "emailjs": "^4.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-phone-number-input": "^3.2.9",
+    "react-responsive-carousel": "^3.2.23",
     "react-scripts": "5.0.1",
+    "react-slideshow-image": "^4.0.4",
     "sass": "^1.54.5",
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"

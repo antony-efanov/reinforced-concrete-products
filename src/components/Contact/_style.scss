@@ -1,0 +1,111 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  @include lg {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .contactField {
+      padding: 1rem 1.5rem;
+      border: none;
+      border-radius: 10px;
+    }
+
+    &--title {
+      font-size: 2rem;
+      color: $colorDark;
+    }
+
+    &--name-phone {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      @include md {
+        flex-direction: row;
+      }
+    }
+
+    &--nameField {
+      @include md {
+        width: 50%;
+      }
+    }
+
+    &--phoneField {
+      @include md {
+        width: 50%;
+      }
+    }
+
+    &--messageField {
+      height: 10rem;
+    }
+
+    &--sendButton {
+      cursor: pointer;
+      align-self: start;
+      color: $colorWhite;
+      background: linear-gradient($gradientMain);
+      border: none;
+      border-radius: 100vw;
+      padding: 1rem 2rem;
+
+      &:hover {
+        background: linear-gradient($gradientHover);
+      }
+    }
+  }
+
+  &__abo {
+    align-self: center;
+    position: relative;
+
+    padding: 1rem;
+
+    &::after {
+      content: "";
+      width: 500%;
+      height: 1px;
+      background-color: $colorGrey;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+
+      @include lg {
+        width: 1px;
+        height: 500%;
+      }
+    }
+  }
+
+  &__numbers {
+    color: $colorDark;
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    @include lg {
+      width: 30%;
+      height: 100%;
+      align-items: start;
+    }
+  }
+}

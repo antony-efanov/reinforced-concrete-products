@@ -1,0 +1,114 @@
+.hero {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  @include md {
+    gap: 2rem;
+    flex-direction: row;
+  }
+
+  @include lg {
+    gap: 3rem;
+  }
+
+  &__text {
+    width: 315px;
+
+    @include lg {
+      width: 500px;
+    }
+    &--title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      background: -webkit-linear-gradient($gradientMain);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      @include lg {
+        font-size: 4rem;
+      }
+    }
+
+    &--secondaryTitle {
+      color: $colorDark;
+      font-size: 1.25rem;
+      font-weight: 400;
+
+      @include lg {
+        font-size: 1.75rem;
+      }
+    }
+
+    &--orderButton {
+      cursor: pointer;
+      color: $colorWhite;
+      background: linear-gradient($gradientMain);
+      border: none;
+      border-radius: 100vw;
+      margin-block-start: 1rem;
+      padding: 1rem 2rem;
+
+      &:hover {
+        background: linear-gradient($gradientHover);
+      }
+
+      @include lg {
+        font-size: 1.25rem;
+        margin-block-start: 1rem;
+        padding: 1.5rem 3rem;
+      }
+    }
+  }
+
+  &__images {
+    display: grid;
+    gap: 15px;
+
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 150px);
+    grid-template-areas:
+      "long long"
+      "small small2";
+
+    @include lg {
+      grid-template-columns: repeat(2, 200px);
+      grid-template-rows: repeat(2, 200px);
+    }
+
+    .heroImage {
+      background-color: $colorWhite;
+      border-radius: 2rem;
+
+      @include lg {
+        border-radius: 3rem;
+      }
+    }
+
+    &--long {
+      grid-area: long;
+      background-image: url(../../assets/images/products/plyta.png);
+      background-repeat: no-repeat;
+      background-size: 80%;
+      background-position: center;
+    }
+
+    &--small {
+      grid-area: small;
+      background-image: url(../../assets/images/products/kiltse.png);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-position: center;
+    }
+
+    &--small2 {
+      grid-area: small2;
+      background-image: url(../../assets/images/products/progon.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+    }
+  }
+}

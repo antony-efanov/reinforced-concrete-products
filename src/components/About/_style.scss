@@ -1,0 +1,50 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  @include md {
+    gap: 2rem;
+    flex-direction: row;
+  }
+
+  @include lg {
+    gap: 3rem;
+  }
+
+  img {
+    border-radius: 2rem;
+
+    @include lg {
+      border-radius: 3rem;
+    }
+  }
+
+  &__carousel {
+    width: 315px;
+
+    @include lg {
+      width: 500px;
+    }
+  }
+
+  &__text {
+    width: 315px;
+
+    &--title {
+      font-size: 2rem;
+      color: $colorDark;
+    }
+
+    &--description {
+      color: $colorDark;
+      line-height: 1.5;
+    }
+
+    @include lg {
+      width: 415px;
+    }
+  }
+}
