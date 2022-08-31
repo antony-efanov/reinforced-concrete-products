@@ -8,12 +8,9 @@ import { default as plyta } from "../../assets/images/products/plyta.png";
 import { default as progon } from "../../assets/images/products/progon.png";
 import { default as shoda } from "../../assets/images/products/shoda.png";
 import { default as shodi } from "../../assets/images/products/shodi.png";
+import { IProductProps } from "./types";
 
-interface IProps {
-  setOrderText: any;
-}
-
-const Products: FC<IProps> = ({ setOrderText }) => {
+const Products: FC<IProductProps> = ({ setOrderText }) => {
   const products = [
     {
       name: "ФБС",

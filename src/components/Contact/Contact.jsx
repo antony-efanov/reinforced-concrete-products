@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input/input";
 
-export const Contact = ({ orderText }) => {
+const Contact = ({ orderText }) => {
   const [value, setValue] = useState();
   const form = useRef();
 
@@ -63,7 +63,10 @@ export const Contact = ({ orderText }) => {
           defaultValue={orderText}
         />
 
-        <button className="contact__form--sendButton" type="submit">
+        <button
+          className="contact__form--sendButton genericButton"
+          type="submit"
+        >
           Відправити
         </button>
       </form>
@@ -76,3 +79,5 @@ export const Contact = ({ orderText }) => {
     </footer>
   );
 };
+
+export default Contact;

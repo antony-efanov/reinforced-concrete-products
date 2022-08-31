@@ -17,7 +17,7 @@
     .contactField {
       padding: 1rem 1.5rem;
       border: none;
-      border-radius: 10px;
+      border-radius: $borderRadius;
     }
 
     &--title {
@@ -52,17 +52,8 @@
     }
 
     &--sendButton {
-      cursor: pointer;
       align-self: start;
-      color: $colorWhite;
-      background: linear-gradient($gradientMain);
-      border: none;
-      border-radius: 100vw;
       padding: 1rem 2rem;
-
-      &:hover {
-        background: linear-gradient($gradientHover);
-      }
     }
   }
 

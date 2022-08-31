@@ -17,7 +17,7 @@ const Product: FC<IProductProps> = ({ name, price, imgSrc, setOrderText }) => {
               onClick={() =>
                 setOrderText(`Цікавить товар «${name}», перетелефонуйте мені.`)
               }
-              className="product__info--button"
+              className="product__info--button genericButton"
             >
               Замовити
             </button>

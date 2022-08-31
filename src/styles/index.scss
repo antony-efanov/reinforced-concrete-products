@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 @import "./essentials/normalize";
+@import "./essentials/variables";
 @import "./essentials/colors";
 @import "./essentials/breakpoints";
+@import "./essentials/buttons";
 
 @import "../components/Hero/style";
 @import "../components/About/style";
@@ -32,8 +34,4 @@ body {
   display: grid;
   align-items: center;
   grid-template-rows: repeat(4, 800px);
-}
-
-img {
-  max-width: 100%;
 }

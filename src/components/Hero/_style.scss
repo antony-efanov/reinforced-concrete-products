@@ -43,17 +43,8 @@
     }
 
     &--orderButton {
-      cursor: pointer;
-      color: $colorWhite;
-      background: linear-gradient($gradientMain);
-      border: none;
-      border-radius: 100vw;
       margin-block-start: 1rem;
       padding: 1rem 2rem;
-
-      &:hover {
-        background: linear-gradient($gradientHover);
-      }
 
       @include lg {
         font-size: 1.25rem;

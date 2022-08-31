@@ -1,0 +1,11 @@
+.genericButton {
+  cursor: pointer;
+  color: $colorWhite;
+  background: linear-gradient($gradientMain);
+  border: none;
+  border-radius: 100vw;
+
+  &:hover {
+    background: linear-gradient($gradientHover);
+  }
+}
