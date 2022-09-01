@@ -38,6 +38,21 @@
     gap: 1rem;
     width: 315px;
 
+    &::-webkit-scrollbar {
+      height: 1.3rem;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: $colorWhite;
+      border-radius: 100vw;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: linear-gradient($gradientMain);
+      border: 0.3rem solid $colorWhite;
+      border-radius: 100vw;
+    }
+
     @include md {
       width: 662px;
     }
