@@ -8,7 +8,7 @@ const Hero: FC = () => {
         <img className="hero__text--logo" src={logo} alt="logo" />
         <h1 className="hero__text--title">Залізобетонні вироби</h1>
         <h2 className="hero__text--secondaryTitle">
-          Найкращі в Україні, за якість отваєт О. Печериця
+          Найкращі в Україні, за якість отвєчаєт О. Печериця
         </h2>
         <a href="#contact">
           <button className="hero__text--orderButton genericButton">
