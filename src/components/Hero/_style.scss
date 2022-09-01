@@ -17,10 +17,17 @@
   &__text {
     width: 315px;
 
+    &--logo {
+      background-color: $colorWhite;
+      border-radius: 100vw;
+      width: 200px;
+    }
+
     @include lg {
       width: 500px;
     }
     &--title {
+      margin-block-start: 1rem;
       font-size: 2.5rem;
       font-weight: 800;
       background: -webkit-linear-gradient($gradientMain);
