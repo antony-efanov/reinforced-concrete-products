@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reinforced-concrete-products/static/css/main.7cf5068a.css",
-    "main.js": "/reinforced-concrete-products/static/js/main.0e222b4f.js",
+    "main.css": "/reinforced-concrete-products/static/css/main.9e3e51ae.css",
+    "main.js": "/reinforced-concrete-products/static/js/main.f33557a4.js",
     "static/media/slide_3.png": "/reinforced-concrete-products/static/media/slide_3.463174bb6b8f5426084e.png",
     "static/media/slide_2.png": "/reinforced-concrete-products/static/media/slide_2.5f0a1baf3e20ed3feff5.png",
     "static/media/slide_1.png": "/reinforced-concrete-products/static/media/slide_1.c7ff0575ba23b878b10c.png",
@@ -13,11 +13,11 @@
     "static/media/shoda.png": "/reinforced-concrete-products/static/media/shoda.94983a36816ac7f688f1.png",
     "static/media/pali.png": "/reinforced-concrete-products/static/media/pali.ba8ac4730c1d2e6617d8.png",
     "index.html": "/reinforced-concrete-products/index.html",
-    "main.7cf5068a.css.map": "/reinforced-concrete-products/static/css/main.7cf5068a.css.map",
-    "main.0e222b4f.js.map": "/reinforced-concrete-products/static/js/main.0e222b4f.js.map"
+    "main.9e3e51ae.css.map": "/reinforced-concrete-products/static/css/main.9e3e51ae.css.map",
+    "main.f33557a4.js.map": "/reinforced-concrete-products/static/js/main.f33557a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cf5068a.css",
-    "static/js/main.0e222b4f.js"
+    "static/css/main.9e3e51ae.css",
+    "static/js/main.f33557a4.js"
   ]
 }
