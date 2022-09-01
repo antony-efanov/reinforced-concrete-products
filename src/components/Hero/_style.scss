@@ -91,6 +91,39 @@
       background-repeat: no-repeat;
       background-size: 80%;
       background-position: center;
+      position: relative;
+
+      &:hover::after {
+        display: grid;
+        place-content: center;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        content: "";
+        border-radius: 2rem;
+        background-color: hsla(214, 38%, 31%, 0.9);
+
+        animation: popup 275ms ease-in-out;
+      }
+
+      &:hover::before {
+        opacity: 0;
+        content: "від 3999₴";
+        font-weight: 700;
+        display: grid;
+        place-content: center;
+        position: absolute;
+        left: -20px;
+        height: 100%;
+        width: 100%;
+
+        color: $colorWhite;
+        font-size: 2rem;
+        border-radius: 2rem;
+        z-index: 1;
+
+        animation: textpopup 500ms ease-in-out forwards;
+      }
     }
 
     &--small {
@@ -99,6 +132,38 @@
       background-repeat: no-repeat;
       background-size: 70%;
       background-position: center;
+      position: relative;
+
+      &:hover::after {
+        display: grid;
+        place-content: center;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        content: "";
+        border-radius: 2rem;
+        background-color: hsla(214, 38%, 31%, 0.9);
+
+        animation: popupSmall 275ms ease-in-out;
+      }
+
+      &:hover::before {
+        opacity: 0;
+        content: "від 1799₴";
+        color: $colorWhite;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: grid;
+        place-content: center;
+        position: absolute;
+        top: -20px;
+        height: 100%;
+        width: 100%;
+        border-radius: 2rem;
+        z-index: 1;
+
+        animation: textpopupSmall 500ms ease-in-out forwards;
+      }
     }
 
     &--small2 {
@@ -107,6 +172,87 @@
       background-repeat: no-repeat;
       background-size: 100%;
       background-position: center;
+      position: relative;
+
+      &:hover::after {
+        display: grid;
+        place-content: center;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        content: "";
+        border-radius: 2rem;
+        background-color: hsla(214, 38%, 31%, 0.9);
+
+        animation: popup 275ms ease-in-out;
+      }
+
+      &:hover::before {
+        opacity: 0;
+        content: "від 1499₴";
+        color: $colorWhite;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: grid;
+        place-content: center;
+        position: absolute;
+        left: -20px;
+        height: 100%;
+        width: 100%;
+
+        border-radius: 2rem;
+        z-index: 1;
+
+        animation: textpopup 500ms ease-in-out forwards;
+      }
     }
+  }
+}
+
+@keyframes popup {
+  0% {
+    opacity: 0;
+    width: 0%;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
+}
+
+@keyframes textpopup {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+@keyframes popupSmall {
+  0% {
+    opacity: 0;
+    height: 0%;
+  }
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
+}
+
+@keyframes textpopupSmall {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
   }
 }
